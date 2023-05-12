@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+  #gameContainer {
+      width: 400px;
+      height: 400px;
+      position: relative;
+      border: 1px solid black;
+    }
+    
+    .pixel {
+      width: 40px;
+      height: 40px;
+      float: left;
+      border: 1px solid lightgray;
+    }
+    
+    .food {
+      background-color: red;
+    }
+    
+    .snakeBodyPixel {
+      background-color: green;
+    }
+    
+    .scoreBoard {
+      margin-top: 10px;
+    }
